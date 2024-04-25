@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainArea{
+    height: calc(100vh - 60px)
+}
+
+.icon-container{
+    width: 18px; /* Make the icon fill its container */
+    height: 18px;
+    background-color : white;
+    border-radius  : 50%;
+}
+
+.icon {
+    width: 10px; /* Make the icon fill its container */
+    height: 10px;
+  }
+
+  .message-icon{
+    width: 20px; /* Make the icon fill its container */
+    height: 20px;
+    color : blue;
+  }
